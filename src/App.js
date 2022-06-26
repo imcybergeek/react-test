@@ -11,6 +11,7 @@ function App() {
       tags:[{text:"Brand New",color:"lightcoral"}, {text:"Free Shipping",color:"lightblue"}, {text:"15% Off",color:"lightpink"}],
       location: ["EMLA Music","Le Havre, France",""],
       pricing: ["6500.00","5,738.00","195"],
+      review:"31"
     },
     {
       img:"https://cdn.shopaccino.com/johns-music/products/1-716340_l.jpg",
@@ -18,6 +19,7 @@ function App() {
       tags:[{text:"Brand New",color:"lightcoral"}],
       location: ["ProMusicTools","Munchen, Germany",""],
       pricing: ["","1,831.57","244.36"],
+      review:"561"
     },
     {
       img:"https://audiogears.in/wp-content/uploads/2020/07/61X9Mmv99L._SL1200_.jpg",
@@ -25,6 +27,7 @@ function App() {
       tags:[{text:"Brand New",color:"lightcoral"}, {text:"Free Shipping",color:"lightblue"}],
       location: ["Gear Garage","Dulwich Hill, Australia",""],
       pricing: ["","1700","35"],
+      review:"341"
     },
     {
       img:"https://cdn.shopaccino.com/johns-music/products/1503917131img857185-396421_l.jpg",
@@ -32,6 +35,7 @@ function App() {
       tags:[{text:"Free Shipping",color:"lightblue"}],
       location: ["TURNLAB","Antwerpen, Belgium"],
       pricing: ["","1700","205"],
+      review:"1,031"
     },
     {
       img:"https://cdn.shopaccino.com/johns-music/products/13830658761010608-547250_l.jpg",
@@ -39,6 +43,7 @@ function App() {
       tags:[{text:"Brand New",color:"lightcoral"}, {text:"Free Shipping",color:"lightblue"}, {text:"15% Off",color:"lightpink"}],
       location: ["Andrew's Gear Outlet","Ojai CA, United States"],
       pricing: ["","682.80","42.68"],
+      review:"456"
     }
   ]
 
