@@ -26,6 +26,7 @@ let Container = ({ data }) => {
             </div>
           </div></div>
           <div style={{display:"flex",width:"50rem"}}>
+            <div style={{border:"1px solid lightgrey"}}></div>
           <div
             className="location"
             style={{
