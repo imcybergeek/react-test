@@ -57,7 +57,6 @@ let Container = ({ data }) => {
           </div>
           <div className="buttons">
             <button>Add To Cart</button>
-            <br></br>
             <button>Make Offer</button>
           </div></div>
         </div>
