@@ -15,14 +15,17 @@
   display:flex;
 }
 
+.location {
+  margin:auto;
+}
+
+.pricing {
+  margin:auto;
+}
+
 .buttons {
   margin-left: auto;
   margin-right: 0;
-}
-
-.tag {
-  padding-left: 5px;
-  background-color: lightcoral;
 }
 
 img {

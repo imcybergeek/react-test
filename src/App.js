@@ -8,38 +8,37 @@ function App() {
     {
       img:"",
       name: "Nord Stage 3 88 Keys",
-      tags:["Brand New", "Free Shipping", "15% Off"],
-      colors:["lightcoral","lightblue","lightpink"],
+      tags:[{text:"Brand New",color:"lightcoral"}, {text:"Free Shipping",color:"lightblue"}, {text:"15% Off",color:"lightpink"}],
       location: ["EMLA Music","Le Havre, France",""],
       pricing: ["6500.00","5,738.00","195"],
     },
     {
       img:"",
       name: "Line 6 Helix Rack",
-      tags:["Brand New"],
+      tags:[{text:"Brand New",color:"lightcoral"}],
       location: ["ProMusicTools","Munchen, Germany",""],
       pricing: ["","1,831.57","244.36"],
     },
     {
       img:"",
       name: "Nord Lead A1",
-      tags:["Brand New", "Free Shipping"],
+      tags:[{text:"Brand New",color:"lightcoral"}, {text:"Free Shipping",color:"lightblue"}],
       location: ["Gear Garage","Dulwich Hill, Australia",""],
       pricing: ["","1700","35"],
     },
     {
       img:"",
       name: "Mong Subsequent 37",
-      tags:["Free Shipping"],
+      tags:[{text:"Free Shipping",color:"lightblue"}],
       location: ["TURNLAB","Antwerpen, Belgium"],
-      pricing: ["1700","205"],
+      pricing: ["","1700","205"],
     },
     {
       img:"",
       name: "Mong Miniature",
-      tags:["Brand New", "Free Shipping", "15% Off"],
+      tags:[{text:"Brand New",color:"lightcoral"}, {text:"Free Shipping",color:"lightblue"}, {text:"15% Off",color:"lightpink"}],
       location: ["Andrew's Gear Outlet","Ojai CA, United States"],
-      pricing: ["682.80","42.68"],
+      pricing: ["","682.80","42.68"],
     }
   ]
 
