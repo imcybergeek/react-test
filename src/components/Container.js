@@ -1,22 +1,30 @@
 import Tag from './Tag';
-let Container = () => {
+let Container = ({data}) => {
     return <>
-    <div className='container'>
+    {data.map((curr)=><div className='container'>
         <img src="https://m.media-amazon.com/images/I/611zFJPgriL._SL1200_.jpg"></img>
         <div className='subcontainer'>
-            <h3>Nord Stage 3 88 Keys</h3>
+            <h3>{curr.name}</h3>
             <div className='tags'>
-            <div style={{background:"lightcoral", height: "20px", textAlign:"center"}}>Brand New</div>
-            <div style={{background:"lightblue", paddingLeft:"5px"}}>Brand New</div>
-            <div style={{background:"lightpink", paddingLeft:"5px"}}>Brand New</div>
+            {curr.tags.map((text)=>
+            <div style={{background:"lightcoral", height: "20px", textAlign:"center"}}>{text}</div>)}
             </div>
+        </div>
+        <div>
+            <p>E.M.L.A Music</p>
+            <p>Le Havre, France</p>
+        </div>
+        <div>
+            <p>$6500.00</p>
+            <p>$5,738.00</p>
+            <p>+195 Shipping</p>
         </div>
         <div className='buttons'>
             <button>Add To Cart</button>
             <br></br>
             <button>Make Offer</button>
         </div>
-    </div>
+    </div>)}
     </>
 }
 
