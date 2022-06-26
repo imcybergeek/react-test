@@ -3,7 +3,7 @@ let Container = ({ data }) => {
     <>
       {data.map((curr) => (
         <div className="container">
-          <img src={curr.img} alt="Please enable internet to see images"></img>
+          <div style={{display:"flex",width:"50rem"}}><img src={curr.img} alt="Please enable internet to see images"></img>
           <div className="subcontainer">
             <h3>{curr.name}</h3>
             <div className="tags">
@@ -24,12 +24,11 @@ let Container = ({ data }) => {
                 </div>
               ))}
             </div>
-          </div>
+          </div></div>
+          <div style={{display:"flex",width:"50rem"}}>
           <div
             className="location"
             style={{
-              paddingLeft: "35rem",
-              position: "absolute",
               lineHeight: "5px",
             }}
           >
@@ -48,7 +47,6 @@ let Container = ({ data }) => {
           </div>
           <div
             className="pricing"
-            style={{ paddingLeft: "60rem", position: "absolute" }}
           >
             <p style={{ color: "red" }}>
               <s>{curr.pricing[0] !== "" ? `$${curr.pricing[0]}` : ""}</s>
@@ -60,7 +58,7 @@ let Container = ({ data }) => {
             <button>Add To Cart</button>
             <br></br>
             <button>Make Offer</button>
-          </div>
+          </div></div>
         </div>
       ))}
     </>
